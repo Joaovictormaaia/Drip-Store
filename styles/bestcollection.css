@@ -76,6 +76,12 @@
     height: 48px;
 }
 
+.collection2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .destaque2 {
     display: flex;
     align-items: center;
@@ -90,14 +96,36 @@
     letter-spacing: 0.75px;
 }
 
+.best-collection2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.best-collection2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--secundary);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+ion-icon {
+    width: 64px;
+    height: 64px;
+}
+
 ion-icon:hover {
     color: var(--primary);
 }
 
-.best-collection2 span:hover {
-    color: var(--primary);
-}
-
-.best-collection2 img:hover {
-    color: var(--primary);
+svg:hover path {
+    fill:var(--primary)
 }

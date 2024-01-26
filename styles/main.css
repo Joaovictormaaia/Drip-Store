@@ -2,7 +2,6 @@ main {
   background-color: var(--light-gray);
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .text-main {
