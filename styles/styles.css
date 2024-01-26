@@ -1,0 +1,21 @@
+:root {
+    --spacing-tiny: 4px;
+    --spacing-smaller: 8px;
+    --spacing-small: 12px;
+    --spacing-normal: 16px;
+    --spacing-medium: 24px;
+    --spacing-large: 32px;
+    --spacing-huge: 48px;
+    --spacing-massive: 64px;
+  
+    --primary: #C92071;
+    --secundary: #474747;
+    --dark-gray-1: #666666;
+    --light-gray: #F5F5F5;
+    --dark-gray-3: #1F1F1F;
+    --warning: #F6AA1C;
+    --discount: #E7FF86;
+    -produtos: #8F8F8F;
+    --white: #FFFFFF;
+    --card: #D8E3F2;
+  }

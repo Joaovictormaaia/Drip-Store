@@ -1,0 +1,99 @@
+.best-collection {
+    display: flex;
+}
+
+.destaque {
+    color: var(--secundary);
+    font-family: Inter;
+    padding: 38px 0px 0px 70px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.bloco-collection {
+    display: flex;
+    gap: 8px;
+    padding: 0px 0px 100px 70px;
+}
+
+.card {
+    background-color: var(--card);
+    display: flex;
+}
+
+.text-card {
+    display: flex;
+    display: absolute;
+    flex-direction: column;
+    padding: 20px 0px 0px 5px;
+    gap: 15px;
+}
+
+.discount {
+    display: flex;
+    background-color: var(--discount);
+    color: var(--secundary);
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    width: 80px;
+    height: 22px;
+}
+
+.collection {
+    color: var(--dark-gray-3);
+    font-family: Inter;
+    width: 182.11px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.text-card button {
+    background-color: var(--light-gray);
+    color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    width: 153px;
+    height: 48px;
+}
+
+.destaque2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secundary);
+    font-family: Inter;
+    padding: 38px 0px 0px 70px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+ion-icon:hover {
+    color: var(--primary);
+}
+
+.best-collection2 img:hover {
+    color: var(--primary);
+}
