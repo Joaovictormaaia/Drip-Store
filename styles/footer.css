@@ -1,0 +1,105 @@
+footer {
+    background-color: var(--dark-gray-3);
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 72px 0px 0px 70px;
+}
+
+footer .loja  {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 36.395px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.364px;
+}
+
+footer .descri {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 350px;
+}
+
+footer .information {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0px 0px 205px;
+    gap: 28px;
+}
+
+footer .titulo {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .sub-titulo {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+footer .information2 {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0px 0px 102px;
+    gap: 28px;
+}
+
+footer .endereco {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 231px;
+}
+
+footer .number {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+footer .information3 {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0px 0px 168px;
+    gap: 28px;
+}
+
+footer .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+     line-height: 24px;
+}
