@@ -1,0 +1,103 @@
+.top-produtos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 950px;
+    padding-top: 123px;
+}
+
+.top-produtos .titulo {
+    color: var(--secundary);
+    font-family: Inter;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.top-produtos .ancora {
+    display: flex;
+}
+
+.top-produtos a {
+    color: var(--primary);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+}
+
+.top-produtos span {
+    color: var(--primary);
+    padding-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.top-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px 70px ;
+    gap: 14px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--light-gray);
+}
+
+.card2 .discount {
+    margin: 10px 0px 0px 10px;
+}
+
+.card2-produto {
+    color: var(--porodutos);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+
+.card2-nome {
+    color: var(--secundary);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.card2-valor {
+    display: flex;
+    gap: 5px;
+}
+
+.card2 .valor1 {
+    color: var(--dark-gray-1);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    text-decoration: line-through;
+}
+
+.card2 .valor2 {
+    color: var(--dark-gray-3);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
