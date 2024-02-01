@@ -4,6 +4,10 @@ main {
   align-items: center;
 }
 
+main img {
+  width: 50vw;
+}
+
 .text-main {
   display: flex;
   flex-direction: column;
